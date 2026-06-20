@@ -1,0 +1,35 @@
+{
+  "name": "studio-knowledge-app",
+  "version": "0.1.0",
+  "description": "工业设备组装工作室的知识管理与学习平台",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.71.13",
+    "expo": "^49.0.0",
+    "expo-status-bar": "~1.6.0",
+    "@react-navigation/native": "^6.1.11",
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "@react-navigation/stack": "^6.3.20",
+    "react-native-screens": "~3.22.0",
+    "react-native-safe-area-context": "4.6.4",
+    "react-native-gesture-handler": "~2.14.0",
+    "firebase": "^9.23.0",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@types/react": "~18.2.37",
+    "typescript": "~5.2.2",
+    "jest": "^29.7.0"
+  },
+  "private": true
+}
